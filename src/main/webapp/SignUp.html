@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SignUp</title>
+<link href="Fstyle.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="container">
+        <form class="form_container" action="SignUp">
+            <div style="display: flex;justify-content: space-between;">
+            <h1>Sign Up</h1>
+            <a href="http://localhost:8080/FacebookLoginIn/Login.html">
+            <span class="icon" style="font-size: 30px;"><ion-icon name="close-outline"></ion-icon></span></a>
+        </div>
+            <p class="subheading">It's quick and easy.</p>
+           
+         <p>
+          <input type="text" name="fs" class="namefields" placeholder="Firstname" required />
+          <input type="text" name="ls" class="namefields" placeholder="Surname" required />
+         </p>
+         
+          <p>
+          <input type="email" name="email" class="inputfields" placeholder="Email address" required />
+         </p>
+         
+          <p>
+          <input type="password" name="pass" class="inputfields" placeholder="Set password" required />
+         </p>
+         
+         <p>
+            <label>Date of Birth</label><br>
+            <input type="date" name="dob" class="inputfields" />
+           </p>
+
+        
+           <div>
+            <label>Gender</label><br>
+            <div style="margin: 10px 0;">
+                <span class="genderfield1">
+               <label htmlfor="female">Female</label>
+               <input type="radio" id="female" name="gender" value="Female" />
+            </span>
+            <span class="genderfield2">
+                <label htmlfor="male">Male</label>
+                <input type="radio" id="male" name="gender" value="Male" />
+            </span>
+        </div>
+            </div>
+            
+            
+            <div style="display: flex;justify-content: center; margin-top: 25px;">
+                <input type="submit" class="btn-submit" value="Sign Up" />
+            </div>
+         
+        </form>
+      </div>
+   
+   
+   
+   
+    <!-- js file for ionicons -->
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
+</body>
+</html>

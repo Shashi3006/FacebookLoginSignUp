@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    background-color: aliceblue;
+}
+.form_container{
+    padding: 25px;
+    min-height: 50vh;
+    min-width: 50vh;
+    background-color: #fff;
+    border-radius: 15px;
+}
+.namefields{
+    height: 35px;
+    width: 49%;
+    margin: 8px 0;
+    padding-left: 10px;
+}
+.inputfields{
+    height: 35px;
+    width: 100%;
+    margin: 8px 0;
+    padding-left: 10px;
+}
+.genderfield1{
+    border: 1px solid #000;
+    width: 15px;
+    padding: 7px 40px;
+    margin: 10px 10px 10px 0;
+    font-size: 18px;
+}
+.genderfield2{
+    border: 1px solid #000;
+    width: 15px;
+    padding: 7px 40px;
+    margin: 10px 0 10px 5px;
+    font-size: 18px;
+}
+#female{
+    margin-left: 20px;
+}
+#male{
+    margin-left: 35px;
+}
+.btn-submit{
+    height: 40px;
+    width: 60%;
+    border-radius: 5px;
+    border-color: rgb(52, 211, 52);
+    box-shadow: none;
+    background-color: rgb(52, 211, 52);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+#btn-login{
+    width: 100%;
+    font-size: 15px;
+    border-color: rgb(54, 54, 218);
+    background-color: rgb(54, 54, 218);
+}
+.forgotPass{
+    margin: 5px 0;
+    text-align: center;
+    color: rgb(79, 79, 214);
+}
+#btn-newAccount{
+    font-size: 16px;
+    width: 65%;
+}
